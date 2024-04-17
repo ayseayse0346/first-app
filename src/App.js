@@ -14,7 +14,7 @@ function Profile() {
 export default function Gallery(){
   return(
     <section>
-    <h1>Amazing Scients</h1>
+    <h1 className="header" style={{color:"pink"}}>Amazing Scients</h1>
     <Profile/>
     <Profile/>
     </section>
