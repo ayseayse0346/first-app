@@ -1,4 +1,4 @@
-
+// bir dosyada export default bir tane yapılır. bu yüzden gallery function genel aldık ve index js de bu basıldı profile ise gallery de aldık. 
 
 
 
@@ -11,6 +11,7 @@ function Profile() {
   );
 }
 
+
 export default function Gallery(){
   return(
     <section>
@@ -20,3 +21,4 @@ export default function Gallery(){
     </section>
   )
 }
+// css özelliklerini istersek className vererek index.css klasöründe verebiliriz.İstersek style attribute ile yukarıdaki gibi dubble süslü ve camelCase şeklinde verebilriz.
